@@ -12,10 +12,10 @@ public class CenturyList {
 		// TODO Auto-generated method stub
 		
 		//int count = 0;
-		int startYear = 1;
-		int endYear = 2020;
+		int startYear = 186;
+		int endYear = 186;
 		
-		for (int i=startYear; i< endYear+1; i++) {
+		for (int i=startYear; i<= endYear; i++) {
 			
 			//blankLine("counter "+ count++);
 			Year year = new Year(i);
